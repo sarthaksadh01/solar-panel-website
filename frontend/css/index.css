@@ -1,0 +1,18 @@
+@media  only screen and (max-width: 400px) {
+  .navbar{
+    background-color: #ffffff;
+
+  }
+  #logo{
+    display: block;
+  }
+
+
+}
+
+#logo{
+  font-size: 52px;
+}
+.display-4{
+  font-size: 40px;
+}
