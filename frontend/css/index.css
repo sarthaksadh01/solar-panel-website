@@ -1,18 +1,32 @@
-@media  only screen and (max-width: 400px) {
-  .navbar{
-    background-color: #ffffff;
+#why{
+    /* background: grey; */
+    /* margin-top:10 px; */
+}
+i{
+    color:yellowgreen;
+}
+#footer{
+    background: yellowgreen;
+    color: white;
+    height:300px;
+    width:100%;
+}
 
-  }
-  #logo{
-    display: block;
-  }
-
+.products{
+    height:200px;
+    width:300px;
+    padding-left:30px;
 
 }
 
-#logo{
-  font-size: 52px;
+@media only screen and (min-device-width: 200px){
+    #picture{
+        width:100%;
+    }
 }
-.display-4{
-  font-size: 40px;
+
+@media only screen and (min-device-width: 500px){
+    #picture{
+        width:350px;
+    }
 }

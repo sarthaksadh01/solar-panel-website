@@ -1,123 +1,424 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-  <link rel="stylesheet" href="frontend/css/index.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="frontend/js/index.js"></script>
-<style media="screen">
-.display-4{
-  font-size: 32px;
-}
-</style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="frontend/css/index.css">
+    <title>Surya Urja</title>
+   
 </head>
 
-
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-    <a class="text-warning navbar-brand" href="#"><i id="logo" class="fas fa-solar-panel"></i></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div id="navbarNavDropdown" class="navbar-collapse collapse">
-      <ul class="navbar-nav mr-auto">
-
-      </ul>
-      <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <a class="nav-link" href="#products">
-            <b class = "display-4">Products</b>
-          </a>
-
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#clients"> <b class = "display-4">Clients</b></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#service"><b class = "display-4">Service</b></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact"><b class = "display-4">Contact Us</b></a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+<body>
+    <h1>Surya Urja</h1>
 
 
+    <nav class="navbar navbar-expand-lg  fixed-top navbar-right navbar-light " style="color:red; background: white;">
+        <a class="navbar-brand ml-5" id="ankit" style="font-family: 'Lobster Two', cursive;
+            font-size: 40px; color:yellowgreen; background: white;
+            "
+            href="#"><img style="height:60px; width:60x" src="images/logo.jpg"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav   mr-auto ">
+            </ul>
+            <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gosolar.html">Go solar</a>
+                </li>
 
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Covereage Areas</a>
+                </li>
 
-  <img  class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Photovoltaik_Dachanlage_Hannover_-_Schwarze_Heide_-_1_MW.jpg/1200px-Photovoltaik_Dachanlage_Hannover_-_Schwarze_Heide_-_1_MW.jpg" alt="First slide">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Solar plans</a>
+                </li>
 
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Queries/faQ</a>
+                </li>
 
-  <div class="container">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                </li>
 
-    <div id = "products" class="mt-5 row">
-    <div class="mb-3 col-sm-4">
-      <div class="card">
-        <div class="card-body">
-          <img  class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Photovoltaik_Dachanlage_Hannover_-_Schwarze_Heide_-_1_MW.jpg/1200px-Photovoltaik_Dachanlage_Hannover_-_Schwarze_Heide_-_1_MW.jpg" alt="First slide">
-<br>
-          <h5 class="card-title">Demo Product one</h5>
+            </ul>
 
-          <p id="visit" class="float-right text-success card-text"></p>
+            <form class="form-inline " style="display:none">
 
-        </div>
-      </div>
-    </div>
-    <div class="mb-3 col-sm-4">
-      <div class="card">
-        <div class="card-body">
-          <img  class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Photovoltaik_Dachanlage_Hannover_-_Schwarze_Heide_-_1_MW.jpg/1200px-Photovoltaik_Dachanlage_Hannover_-_Schwarze_Heide_-_1_MW.jpg" alt="First slide">
-<br>
-          <h5 class="card-title">Demo Product two</h5>
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
 
-          <p id="visit" class="float-right text-success card-text"></p>
+            <a href="tel: 8650605941"><button style="background-color: yellowgreen; color:white;" class="btn btn-md ">865-060-5941<i
+                        class="fas fa-phone"></i></button></a>
 
         </div>
-      </div>
-    </div>
-    <div class="mb-3 col-sm-4">
-      <div class="card">
-        <div class="card-body">
-          <img  class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Photovoltaik_Dachanlage_Hannover_-_Schwarze_Heide_-_1_MW.jpg/1200px-Photovoltaik_Dachanlage_Hannover_-_Schwarze_Heide_-_1_MW.jpg" alt="First slide">
-<br>
-          <h5 class="card-title">Demo Product three</h5>
+    </nav>
 
-          <p id="visit" class="float-right text-success card-text"></p>
+
+    <!-- nav bar ends -->
+
+
+
+    <section id="top">
+        <img class="img-fluid" src="images/top.jpg">
+
+    </section>
+    <br>
+    <hr>
+    <section id="why">
+
+        <div class="text-center">
+            <br>
+            <h2 style="color:black;">
+                Why to choose Surya Urja?
+                <br><br><br>
+                <div class="row">
+
+                    <div class="col-md-2 col-sm-12 col-xs-12">
+                        <div class="row">
+
+                            <div class="col-lg-12 col-sm-4 col-xs-4"><i class="fas fa-check"></i></div>
+                            <div class="col-lg-12 col-sm-4 col-xs-4">
+
+                                <h6>1. SIMPLE AND EASY </h6>
+                                <h6>We're with you dfghjkl</h6>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <br><br>
+                    <hr>
+                    <div class="col-md-2 col-sm-12 ">
+                        <div class="row">
+
+                            <div class="col-lg-12 col-sm-4 col-xs-2"><i class="fas fa-rupee-sign"></i></div>
+                            <div class="col-lg-12 col-sm-4 col-xs-2">
+
+                                <h6>2. Save Money </h6>
+                                <h6 class="float-right">Solar often costs less than energyfrom your average utilities,
+                                    so you can save money</h6>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    <br><br>
+                    <hr>
+                    <div class="col-md-2 col-sm-12 col-xs-6">
+                        <div class="row">
+
+                            <div class="col-lg-12 col-sm-4 col-xs-4"><i class="fas fa-shield-alt"></i></div>
+                            <div class="col-lg-12 col-sm-4 col-xs-4">
+
+                                <h6>3. After Sales Services* </h6>
+                                <h6>We offer you protection on your solar panels so you can benefit from peace of mind
+                                    .</h6>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <br><br>
+                    <hr>
+                    <div class="col-md-2 col-sm-12 col-xs-6">
+                        <div class="row">
+
+                            <div class="col-lg-12 col-sm-4 col-xs-6"><i class="fas fa-business-time"></i></div>
+                            <div class="col-lg-12 col-sm-4 ">
+
+                                <h6>4. Tailor Made Solar System </h6>
+                                <h6>We offer you protection on your solar panels so you can benefit from peace of mind
+                                    .</h6>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    <br><br>
+                    <hr>
+                    <div class="col-md-2 col-sm-12 col-xs-6">
+                        <div class="row">
+
+                            <div class="col-lg-12 col-sm-4"><i class="fas fa-screwdriver"></i></div>
+                            <div class="col-lg-12 col-sm-4 ">
+
+                                <h6>4. Installation included </h6>
+                                <h6>Our crew has the experience and expertise to make sure your system is installed
+                                    right</h6>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </h2>
+        </div>
+
+    </section>
+
+    <br><br>
+    <section style="background: #C0C0C0 ">
+
+        <div class="row">
+            <div class="col-md-4 pl-5 pt-4 pb-4">
+                <img id="picture" src="images/people.jpg">
+            </div>
+            <div class="col-md-6 pl-5 pt-4 pb-4">
+
+                <h4>Pick up a plan that's right for you</h4>
+                <br>
+                <h6>Our efficeincy is best</h6>
+                <br>
+                <a href="#" class="btn " style="background: yellowgreen; color:white">Go somewhere</a>
+            </div>
+        </div>
+        <!-- <div class=" pl-5 pt-4 pb-4 ">
+            <img id="picture" src="people.jpg">
+            <h4>Pick up a plan that's right for you</h4>
+            <br>
+            <h6>Our efficeincy is best</h6>
+            <br>
+            <a href="#" class="btn " style="background: yellowgreen; color:white">Go somewhere</a>
+        </div> -->
+
+    </section>
+
+    <br><br>
+
+
+
+    <section id="why">
+
+        <div class="container">
+            <br>
+            <h2 style="color:black;" class="text-center">
+                Learn about ideas</h2>
+            <br><br><br>
+            <div class="row">
+
+                <div class="col-md-4 col-sm-12 pl-5 pb-4 ">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-sm-4"><img class="products" src="images/grid.jpg"></div>
+                        <div class="col-lg-12 col-sm-4 ">
+
+                            <a href="sub.html"><h5 style="text-align:center;">Grid</h5> </a>
+                            <h6 class="pl-4">Solar often costs less than energyfrom your average utilities,
+                                so you can save money</h6>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <br><br>
+                <hr>
+                <div class="col-md-4 col-sm-12 pl-5 pb-4 ">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-sm-4"><img class="products" src="images/nogrid.jpg"></div>
+                        <div class="col-lg-12 col-sm-4 ">
+
+                            <h5 style="text-align:center;">No Grid </h5>
+                            <h6 class="pl-4">Solar often costs less than energyfrom your average utilities,
+                                so you can save money</h6>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <br><br>
+                <hr>
+                <div class="col-md-4 col-sm-12 pl-5 pb-4 ">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-sm-4"><img class="products" src="images/hybrid.png"></div>
+                        <div class="col-lg-12 col-sm-4 ">
+
+                            <h5 style="text-align:center;">Hybrid  </h5>
+                            <h6 class="pl-4">Solar often costs less than energyfrom your average utilities,
+                                so you can save money</h6>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <br><br>
+                <hr>
+                <div class="col-md-4 col-sm-12 pl-5 pb-4 ">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-sm-4"><img class="products" src="images/light.jpg"></div>
+                        <div class="col-lg-12 col-sm-4 ">
+
+                            <h5 style="text-align:center;">Lightning Sol </h5>
+                            <h6 class="pl-4">Solar often costs less than energyfrom your average utilities,
+                                so you can save money</h6>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <br><br>
+                <hr>
+                <div class="col-md-4 col-sm-12 pl-5 pb-4">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-sm-4"><img class="products" src="images/battery.jpg"></div>
+                        <div class="col-lg-12 col-sm-4 ">
+
+                            <h5 style="text-align:center;">Battery </h5>
+                            <h6 class="pl-4">Solar often costs less than energyfrom your average utilities,
+                                so you can save money</h6>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <br><br>
+                <hr>
+                <div class="col-md-4 col-sm-12 pl-5 pb-4">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-sm-4"><img class="products" src="images/watersol.jpg"></div>
+                        <div class="col-lg-12 col-sm-4 ">
+
+                            <h5 style="text-align:center;">Water Solutions </h5>
+                            <h6 class="pl-4">Solar often costs less than energyfrom your average utilities,
+                                so you can save money</h6>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <br><br>
+                <hr>
+
+              
+            </div>
 
         </div>
-      </div>
-    </div>
-  </div>
+
+    </section>
+    <br><br>
+
+    <section style="background:white ">
+        <h3 class="text-center">Let's see if going Solar Is Right for you </h3>
+
+        <h6 class="text-center">Call 8650605941 now to get info or fill out the form below </h6>
+        <br>
+        <form action="" method="post">
+
+            <div class="container">
+
+                <div class="  row">
+                    <div class="col-lg-6 col-md-6 col-xs-6 form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-xs-6 form-group">
+                        <label for="name">mobile no.</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-xs-6 form-group">
+                        <label for="name">Email</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-xs-6 form-group">
+                        <label for="name">Locality</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-xs-6 form-group">
+                        <label for="name">Roof Area</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-xs-6 form-group">
+                        <label for="name">Monthly Electricity Bill</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-xs-12 form-group">
+                        <label for="name">Query</label>
+                        <textarea name="query" id="" class="form-control" cols="200" rows="8" style="max-width: 100%;">Type here........</textarea>
+
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-xs-12">
+                        <button class="btn " style="background:yellowgreen; color:white;">
+                            Get Result!
+                        </button>
+                    </div>
+
+                </div>
 
 
+            </div>
+        </form>
+    </section>
+    <br><br>
 
-  <div id="clients" class="jumbotron">
-    <h1 class="display-4">Hello, world!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-  </div>
-  <div id = "service" class="jumbotron">
-    <h1 class="display-4">Hello, world!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-  </div>
+    <section style="background: #C0C0C0">
+        <div></div>
+    </section>
 
-  <div id = "contact" class="typeform-widget" data-url="https://sarthak47.typeform.com/to/y4KdXM" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=y4KdXM&utm_source=typeform.com-12749195-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
-</div>
+
+    <section id="footer">
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
